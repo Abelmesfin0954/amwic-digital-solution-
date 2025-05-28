@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Basic Page Needs -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Language" content="en-am" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Multilingual Title -->
+    <title
+      data-en="AMWIC | Digital Solutions - About"
+      data-am="አምዊክ | ዲጂታል መፍትሄዎች - ስለ እኛ"
+    >
+      AMWIC | Digital Solutions - About
+    </title>
+
+    <!-- Enhanced Meta Tags -->
+    <meta
+      name="description"
+      data-en="Comprehensive digital solutions provider offering web development, mobile apps, and AI technologies"
+      data-am="ሙሉ የዲጂታል መፍትሄዎች አቅራቢ፤ የድር ፣ የሞባይል መተግበሪያዎች እና የAI ቴክኖሎጂዎች"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover"
+    />
+
+    <!-- Enhanced Favicon Set -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+
+    <!-- Optimized CSS Loading -->
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="plugins/bootstrap/bootstrap.min.css" as="style" />
+    <link rel="preload" href="plugins/themefisher-font/style.css" as="style" />
+    <link rel="preload" href="css/style.css" as="style" />
+
+    <!-- Optimized Font Loading -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha384-..."
+      crossorigin="anonymous"
+    />
+
+    <!-- Language-specific Fonts -->
+    <link
+      rel="preload"
+      href="fonts/AbyssinicaSIL-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- Core Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="plugins/bootstrap/bootstrap.min.css"
+      integrity="sha384-..."
+    />
+    <link rel="stylesheet" href="plugins/themefisher-font/style.css" />
+
+    <!-- Conditional Resource Loading -->
+    <link
+      rel="stylesheet"
+      href="plugins/animate/animate.css"
+      media="(prefers-reduced-motion: no-preference)"
+    />
+    <link
+      rel="stylesheet"
+      href="plugins/lightbox2/css/lightbox.min.css"
+      media="screen"
+    />
+
+    <!-- Async Loading for Non-critical CSS -->
+    <link
+      rel="stylesheet"
+      href="plugins/slick/slick.css"
+      media="print"
+      onload="this.media='all'"
+    />
+
+    <!-- Main Stylesheet with CSS Variables -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Language-specific Typography -->
+    <style>
+      :root {
+        --primary-font: "Abyssinica SIL", "Noto Sans Ethiopic", system-ui;
+        --content-line-height: 1.6;
+      }
+
+      [lang="am"] {
+        font-family: var(--primary-font);
+        line-height: 1.8;
+      }
+
+      [lang="en"] {
+        line-height: var(--content-line-height);
+      }
+    </style>
+
+    <!-- Social Media Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/about" />
+    <meta
+      property="og:title"
+      data-en="AMWIC Digital Solutions"
+      data-am="አምዊክ ዲጂታል መፍትሄዎች"
+    />
+    <meta
+      property="og:description"
+      data-en="Your trusted digital solutions partner"
+      data-am="ታማኝ �ይዲጂታል መፍትሄዎች አጋሮችዎ"
+    />
+
+    <!-- Noscript Fallback -->
+    <noscript>
+      <link rel="stylesheet" href="plugins/animate/animate-noscript.css" />
+    </noscript>
+  </head>
+  <style>
+    /* Language Styles */
+
+    .lang-toggle {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+      display: flex;
+      gap: 10px;
+    }
+
+    .lang-btn {
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      padding: 8px 15px;
+      border-radius: 4px;
+      color: #00020094;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .lang-btn::before {
+      color: rgba(95, 90, 90, 0.479);
+    }
+    .lang-btn.active {
+      background: rgba(255, 255, 255, 0.4);
+      font-weight: bold;
+    }
+  </style>
+  <body id="body">
+    <!--
+  Start Preloader
+  ==================================== -->
+    <div id="preloader">
+      <div class="preloader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!--
+  End Preloader
+  ==================================== -->
+
+    <!--
+Fixed Navigation
+==================================== -->
+    <header
+      class="navigation fixed-top"
+      role="banner"
+      itemscope
+      itemtype="https://schema.org/Organization"
+    >
+      <div class="container">
+        <!-- Language Toggle -->
+        <div class="lang-toggle">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="am">አማ</button>
+        </div>
+        <!-- Main Nav -->
+        <nav
+          class="navbar navbar-expand-lg navbar-light px-0"
+          aria-label="Main navigation"
+        >
+          <!-- Logo with Schema -->
+          <a class="navbar-brand logo" href="index.html" itemprop="url">
+            <h1
+              class="logo-default"
+              data-en="AMWIC"
+              data-am="አምዊክ"
+              itemprop="name"
+              style="color: #100010"
+            >
+              AMWIC
+            </h1>
+          </a>
+
+          <!-- Mobile Toggle -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navigation"
+            aria-controls="navigation"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Nav Menu -->
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav ml-auto text-center">
+              <!-- Homepage Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#!"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  data-en="Homepage"
+                  data-am="መነሻ ገጽ"
+                >
+                  <span data-en="Homepage" data-am="መነሻ ገጽ">Homepage</span>
+                  <i class="tf-ion-chevron-down" aria-hidden="true"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="index.html"
+                      data-en="Homepage"
+                      data-am="መነሻ ገጽ"
+                      >Homepage</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="onepage-slider.html"
+                      data-en="Onepage"
+                      data-am="አንድ ገጽ"
+                      >Onepage</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="onepage-text.html"
+                      data-en="Onepage 2"
+                      data-am="አንድ ገጽ 2"
+                      >Onepage 2</a
+                    >
+                  </li>
+
+                  <!-- Submenu -->
+                  <li class="dropdown dropdown-submenu dropright">
+                    <a
+                      class="dropdown-item dropdown-toggle"
+                      href="#!"
+                      id="dropdown0501"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      data-en="Sub Menu"
+                      data-am="ንዑስ ምናሌ"
+                    >
+                      <span data-en="Sub Menu" data-am="ንዑስ ምናሌ">Sub Menu</span>
+                      <i class="tf-ion-chevron-down" aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown0501">
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="index.html"
+                          data-en="Submenu 01"
+                          data-am="ንዑስ ምናሌ 01"
+                          >Submenu 01</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="index.html"
+                          data-en="Submenu 02"
+                          data-am="ንዑስ ምናሌ 02"
+                          >Submenu 02</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Other Menu Items -->
+              <li class="nav-item active">
+                <a
+                  class="nav-link"
+                  href="about.html"
+                  data-en="About Us"
+                  data-am="ስለ እኛ"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="service.html"
+                  data-en="Services"
+                  data-am="አገልግሎቶች"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="portfolio.html"
+                  data-en="Portfolio"
+                  data-am="ስራዎች"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="team.html"
+                  data-en="Team"
+                  data-am="ቡድን"
+                  >Team</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="pricing.html"
+                  data-en="Pricing"
+                  data-am="የዋጋ አሰጣጥ"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="contact.html"
+                  data-en="Contact"
+                  data-am="አውደ ገንዘብ"
+                  >Contact</a
+                >
+              </li>
+
+              <!-- Pages Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#!"
+                  id="navbarDropdown02"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  data-en="Pages"
+                  data-am="ገጾች"
+                >
+                  <span data-en="Pages" data-am="ገጾች">Pages</span>
+                  <i class="tf-ion-chevron-down" aria-hidden="true"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown02">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="404.html"
+                      data-en="404 Page"
+                      data-am="404 ገጽ"
+                      >404 Page</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog.html"
+                      data-en="Blog Page"
+                      data-am="ብሎግ ገጽ"
+                      >Blog Page</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="single-post.html"
+                      data-en="Blog Single"
+                      data-am="ነጠላ ብሎግ"
+                      >Blog Single</a
+                    >
+                  </li>
+
+                  <!-- Submenu -->
+                  <li class="dropdown dropdown-submenu dropleft">
+                    <a
+                      class="dropdown-item dropdown-toggle"
+                      href="#!"
+                      id="dropdown0201"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      data-en="Sub Menu"
+                      data-am="ንዑስ �ናሌ"
+                    >
+                      <span data-en="Sub Menu" data-am="ንዑስ �ናሌ">Sub Menu</span>
+                      <i class="tf-ion-chevron-down" aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown0201">
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="index.html"
+                          data-en="Submenu 01"
+                          data-am="ንዑስ ምናሌ 01"
+                          >Submenu 01</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="index.html"
+                          data-en="Submenu 02"
+                          data-am="ንዑስ ምናሌ 02"
+                          >Submenu 02</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- /Main Nav -->
+      </div>
+    </header>
+    <!--
+End Fixed Navigation
+==================================== -->
+
+    <section
+      class="single-page-header"
+      role="region"
+      aria-labelledby="pageTitle"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 id="pageTitle" data-en="About Us" data-am="ስለ እኛ">About Us</h1>
+
+            <nav aria-label="Breadcrumb navigation">
+              <ol
+                class="breadcrumb header-bradcrumb justify-content-center"
+                itemscope
+                itemtype="https://schema.org/BreadcrumbList"
+              >
+                <li
+                  class="breadcrumb-item"
+                  itemprop="itemListElement"
+                  itemscope
+                  itemtype="https://schema.org/ListItem"
+                >
+                  <a
+                    href="index.html"
+                    class="text-white"
+                    itemprop="item"
+                    data-en="Home"
+                    data-am="መነሻ"
+                  >
+                    <span itemprop="name">Home</span>
+                    <meta itemprop="position" content="1" />
+                  </a>
+                </li>
+                <li
+                  class="breadcrumb-item active"
+                  aria-current="page"
+                  itemprop="itemListElement"
+                  itemscope
+                  itemtype="https://schema.org/ListItem"
+                >
+                  <span itemprop="name" data-en="About Us" data-am="ስለ እኛ"
+                    >About Us</span
+                  >
+                  <meta itemprop="position" content="2" />
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="about-shot-info section-sm"
+      role="region"
+      aria-labelledby="designTechHeading"
+    >
+      <div class="container">
+        <div class="row" itemscope itemtype="https://schema.org/Organization">
+          <div class="col-lg-6 mt-20">
+            <h2
+              id="designTechHeading"
+              class="mb-3"
+              data-en="We Create Designs and Technology"
+              data-am="ዲዛይን እና ቴክኖሎጂ እንፈጥራለን"
+            >
+              We Create Designs<br />
+              and technology
+            </h2>
+            <p
+              itemprop="description"
+              data-en="At AMWIC, we combine cutting-edge technology with creative design to deliver innovative digital solutions. Our team specializes in transforming complex challenges into user-friendly experiences."
+              data-am="አምዊክ ውስጥ፣ አዲስ ቴክኖሎጂን ከፈጠራዊ ዲዛይን ጋር በማጣመር የዲጂታል መፍትሄዎችን እንሰጣለን። ቡድናችን ውስብስብ ችግሮችን ለተጠቃሚ ምቹ ልምዶች የመቀየር ልዩ ችሎታ አለው።"
+            ></p>
+            <p
+              data-en="Our approach integrates user-centered design principles with robust technical implementations, ensuring solutions that are both beautiful and functional."
+              data-am="የእኛ አቀራረብ የተጠቃሚ-ተኮር ዲዛይን መርሆዎችን ከጠንካራ ቴክኒካዊ አተገባበሮች ጋር በማጣመር፣ ቆንጆ እና ተግባራዊ መፍትሄዎችን እናረጋግጣለን።"
+            ></p>
+            <p
+              data-en="We believe in continuous innovation, staying ahead of industry trends while maintaining core values of quality and reliability."
+              data-am="በቀጣይነት ፈጠራ፣ የምርት ጥራት እና አስተማማኝነት ዋና ዋና እሴቶቻችንን በማስጠበቅ ከልማታዊ አዝማሚያዎች ፊት ለፊት እንሰራለን።"
+            ></p>
+          </div>
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <img
+              loading="lazy"
+              class="img-fluid"
+              src="Assist/All photo/about.jfif"
+              alt="Team collaborating on digital projects"
+              data-en-alt="Team collaborating on digital projects"
+              data-am-alt="ዲጂታል ፕሮጀክቶች ላይ አብሮ የሚሰራ ቡድን"
+              itemprop="image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="company-mission section-sm bg-gray"
+      role="region"
+      aria-labelledby="missionHeading visionHeading"
+      itemscope
+      itemtype="https://schema.org/AboutPage"
+    >
+      <div class="container">
+        <div class="row">
+          <!-- Mission Section -->
+          <div
+            class="col-md-6"
+            itemprop="mission"
+            itemscope
+            itemtype="https://schema.org/Organization"
+          >
+            <h3 id="missionHeading" data-en="Our Mission" data-am="የእኛ ተልእኮ">
+              Our Mission
+            </h3>
+            <p
+              itemprop="description"
+              data-en="At AMWIC, we are committed to delivering innovative digital solutions that empower businesses through cutting-edge technology and user-centric design. Our mission is to bridge the gap between complex technical challenges and intuitive digital experiences."
+              data-am="አምዊክ ውስጥ፣ አዲስ ቴክኖሎጂን እና ተጠቃሚ-ተኮር ዲዛይንን በመጠቀም ንግዶችን የሚያበረታቱ የዲጂታል መፍትሄዎችን ለማቅረብ ቁርጠኛ ነን። ዋናው ተልእኳችን ውስብስብ ቴክኒካዊ ተግዳሮቶችን ከምቾት ያለው የዲጂታል ልምድ ጋር ማገናኘት ነው።"
+            ></p>
+            <img
+              loading="lazy"
+              src="Assist/All photo/Our-Mission.jpg"
+              class="img-fluid mt-30"
+              alt="Team collaborating in tech workspace"
+              data-en-alt="Team collaborating in tech workspace"
+              data-am-alt="ቴክ ስራ አካባቢ ውስጥ አብረው የሚሰሩ ቡድን"
+              itemprop="image"
+            />
+          </div>
+
+          <!-- Vision Section -->
+          <div
+            class="col-md-6 mt-5 mt-md-0"
+            itemprop="vision"
+            itemscope
+            itemtype="https://schema.org/Organization"
+          >
+            <h3 id="visionHeading" data-en="Our Vision" data-am="የእኛ ራእይ">
+              Our Vision
+            </h3>
+            <p
+              itemprop="description"
+              data-en="To become East Africa's leading digital transformation partner, driving technological innovation that creates sustainable growth and empowers communities through accessible digital solutions.  Building bridges between technology and human potential Shaping an inclusive digital future for all communities"
+              data-am="በተገኘ የዲጂታል መፍትሄዎች ዘላቂ እድገትን በማምጣት እና ማህበረሰቦችን በማስማራት የምሥራቅ አፍሪካ አርበኛ የዲጂታል ለውጥ አጋር ለመሆን።  በቴክኖሎጂ እና የሰው ሃይል መካከል ድልድይ መገንባት  ለሁሉም ማህበረሰቦች የተመሰረተ ዲጂታል ምኞት መፍጠር"
+            ></p>
+            <img
+              loading="lazy"
+              src="Assist/All photo/our vision.jpg"
+              class="img-fluid mt-30"
+              alt="Future technology concept visualization"
+              data-en-alt="Future technology concept visualization"
+              data-am-alt="የወደፊት ቴክኖሎጂ ጽንሰ-ሀሳብ ምስላዊነት"
+              itemprop="image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+Start Call To Action
+==================================== -->
+    <section class="call-to-action-2 section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>Welcome to our Company</h2>
+          </div>
+        </div>
+        <!-- End row -->
+      </div>
+      <!-- End container -->
+    </section>
+    <!-- End section -->
+
+    <section class="section gallery">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-xl-6 col-lg-8">
+            <div class="title text-center">
+              <h2>Sneak Peak Gallery</h2>
+              <p></p>
+              <div class="border"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="company-gallery">
+              <img loading="lazy" src="Assist/All photo/photo.jfif" alt="" />
+              <img loading="lazy" src="Assist/All photo/photo2.jfif" alt="" />
+              <img loading="lazy" src="Assist/All photo/photo.jfif" alt="" />
+              <img loading="lazy" src="Assist/All photo/photo 1.jfif" alt="" />
+              <img loading="lazy" src="Assist/All photo/photo2.jfif" alt="" />
+              <img loading="lazy" src="Assist/All photo/photo.jfif" alt="" />
+              <img loading="lazy" src="Assist/All photo/photo2.jfif" alt="" />
+              <img loading="lazy" src="Assist/All photo/photo.jfif" alt="" />
+              <img loading="lazy" src="Assist/All photo/photo 1.jfif" alt="" />
+              <img loading="lazy" src="Assist/All photo/photo2.jfif" alt="" />
+              <img loading="lazy" src="Assist/All photo/photo2.jfif" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Our Team
+		=========================================== -->
+    <section class="team" id="team">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- section title -->
+          <div class="col-xl-6 col-lg-8">
+            <div class="title text-center">
+              <h2>Our Team</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloremque quasi tempora obcaecati, quis similique quos.
+              </p>
+              <div class="border"></div>
+            </div>
+          </div>
+          <!-- /section title -->
+        </div>
+        <div class="row">
+          <!-- team member -->
+          <div class="col-lg-4 col-md-6">
+            <div class="team-member text-center">
+              <div class="member-photo">
+                <!-- member photo -->
+                <img
+                  loading="lazy"
+                  class="img-fluid"
+                  src="Assist/All photo/Abel Web developer photo.jpg"
+                  alt="Meghna"
+                />
+                <!-- /member photo -->
+
+                <!-- member social profile -->
+                <div class="mask">
+                  <ul class="clearfix">
+                    <li>
+                      <a href="#!"
+                        ><i class="tf-ion-social-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#!"
+                        ><i class="tf-ion-social-twitter"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#!"
+                        ><i class="tf-ion-social-google-outline"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#!"
+                        ><i class="tf-ion-social-dribbble"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- /member social profile -->
+              </div>
+
+              <!-- member name & designation -->
+              <div class="member-content">
+               <h3>Abel Mesfin</h3>
+<span>Full-Stack Developer</span>
+<p>Abel Mesfin is a passionate and creative Full-Stack Developer based in Ethiopia, with expertise in both front-end and back-end development. He builds responsive, user-friendly websites and powerful web applications using technologies like HTML, CSS, JavaScript, PHP, and MySQL. Abel is also the founder of AMWIC and AMDS, offering digital solutions including chatbot AI, school websites, and management systems. With a strong vision to become Ethiopia's top web developer, he combines innovation, problem-solving, and clean code to deliver impactful digital experiences.</p>
+
+              </div>
+              <!-- /member name & designation -->
+            </div>
+          </div>
+          <!-- end team member -->
+
+          <!-- team member -->
+          <div class="col-lg-4 col-md-6">
+            <div class="team-member text-center">
+              <div class="member-photo">
+                <!-- member photo -->
+                <img
+                  loading="lazy"
+                  class="img-fluid"
+                  src="Assist/All photo/desgin ner haydear.jpg"
+                  alt="Meghna"
+                />
+                <!-- /member photo -->
+
+                <!-- member social profile -->
+                   <div class="mask">
+                  <ul class="clearfix">
+                    <li>
+                      <a href="#!"
+                        ><i class="tf-ion-social-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#!"
+                        ><i class="tf-ion-social-twitter"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#!"
+                        ><i class="tf-ion-social-google-outline"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#!"
+                        ><i class="tf-ion-social-dribbble"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- /member social profile -->
+              </div>
+
+              <!-- member name & designation -->
+              <div class="member-content">
+                <h3>Hayder Ahmedin</h3>
+                <span>Graphic designer, UI/UX Design</span>
+                <p>
+                  Hayder Ahmedin is a graphic designer based in Addis Ababa,
+                  Ethiopia. He possesses expertise in tools such as Figma and
+                  Adobe Creative Suite, with a focus on logo design. ￼ He is
+                  available for hire and has showcased his work on platforms
+                  like Behance and LinkedIn.
+                </p>
+              </div>
+              <!-- /member name & designation -->
+            </div>
+          </div>
+          <!-- end team member -->
+
+          <!-- team member -->
+          <div class="col-lg-4 col-md-6">
+            <div class="team-member text-center">
+              <div class="member-photo">
+                <!-- member photo -->
+                <img
+                  loading="lazy"
+                  class="img-fluid"
+                  src="images/team/member-3.jpg"
+                  alt="Meghna"
+                />
+                <!-- /member photo -->
+
+                <!-- member social profile -->
+                 <div class="mask">
+                  <ul class="clearfix">
+                    <li>
+                      <a href="#!"
+                        ><i class="tf-ion-social-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#!"
+                        ><i class="tf-ion-social-twitter"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#!"
+                        ><i class="tf-ion-social-google-outline"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#!"
+                        ><i class="tf-ion-social-dribbble"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- /member social profile -->
+              </div>
+
+              <!-- member name & designation -->
+              <div class="member-content">
+              <h3>David Gauthier</h3>
+<span>Back-End Developer</span>
+<p>
+  David Gauthier is a skilled back-end developer with a focus on building secure, scalable, and high-performance server-side applications. He specializes in database management, API development, and server architecture using technologies like Node.js, Python, and PHP.
+</p>
+
+              </div>
+              <!-- /member name & designation -->
+            </div>
+          </div>
+          <!-- end team member -->
+        </div>
+        <!-- End row -->
+      </div>
+      <!-- End container -->
+    </section>
+    <!-- End section -->
+
+    <section class="metrics-section">
+      <div class="metrics-container">
+        <div class="section-header">
+          <h2>Driving Digital Transformation</h2>
+          <p>Numbers that define our commitment to excellence</p>
+        </div>
+
+        <div class="metrics-grid">
+          <!-- Metric 1 -->
+          <div class="metric-card">
+            <div class="metric-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <div class="metric-content">
+              <div class="metric-value" data-count="150">0</div>
+              <div class="metric-title">Projects Launched</div>
+              <div class="metric-progress">
+                <div class="progress-bar" style="width: 95%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Metric 2 -->
+          <div class="metric-card">
+            <div class="metric-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <div class="metric-content">
+              <div class="metric-value" data-count="98">0</div>
+              <div class="metric-title">Client Satisfaction</div>
+              <div class="metric-progress">
+                <div class="progress-bar" style="width: 98%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Metric 3 -->
+          <div class="metric-card">
+            <div class="metric-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <div class="metric-content">
+              <div class="metric-value" data-count="300">0</div>
+              <div class="metric-title">Active Clients</div>
+              <div class="metric-progress">
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Metric 4 -->
+          <div class="metric-card">
+            <div class="metric-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="metric-content">
+              <div class="metric-value" data-count="500">0</div>
+              <div class="metric-title">Features Implemented</div>
+              <div class="metric-progress">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <style>
+      /* Metrics Section */
+      .metrics-section {
+        padding: 8rem 2rem;
+        color: #fff;
+      }
+
+      .metrics-container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .section-header {
+        text-align: center;
+        margin-bottom: 4rem;
+      }
+
+      .section-header h2 {
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+      }
+
+      .section-header p {
+        color: #aaa;
+        font-size: 1.1rem;
+      }
+
+      .metrics-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+      }
+
+      .metric-card {
+        background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+        padding: 2rem;
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .metric-card:hover {
+        transform: translateY(-10px);
+      }
+
+      .metric-icon {
+        font-size: 2.5rem;
+        color: #228b22;
+        margin-bottom: 1.5rem;
+      }
+
+      .metric-value {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        position: relative;
+      }
+
+      .metric-value::after {
+        content: "+";
+        color: #228b22;
+        margin-left: 0.3rem;
+      }
+
+      .metric-title {
+        color: #aaa;
+        margin-bottom: 1.5rem;
+      }
+
+      .metric-progress {
+        height: 4px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 2px;
+        overflow: hidden;
+      }
+
+      .progress-bar {
+        height: 100%;
+        background: #228b22;
+        width: 0;
+        transition: width 1s ease-in-out;
+      }
+
+      /* Animate progress bars on view */
+      .metric-card.in-view .progress-bar {
+        width: var(--progress-width);
+      }
+
+      @media (max-width: 768px) {
+        .metrics-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .section-header h2 {
+          font-size: 2.2rem;
+        }
+      }
+    </style>
+    <!-- end section -->
+    <!--
+Start Call To Action
+==================================== -->
+    <section class="call-to-action section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-6 col-lg-8 text-center">
+            <h2>Let's Build Your Digital Future Together</h2>
+<p>
+  At AMWIC Digital Solutions, we bring innovation and expertise to create powerful websites, AI chatbots, and management systems that drive success.  
+  Partner with us to transform your ideas into cutting-edge digital solutions.
+</p>
+<a href="contact.html" class="btn btn-main">Contact Us</a>
+          </div>
+        </div>
+        <!-- End row -->
+      </div>
+      <!-- End container -->
+    </section>
+    <!-- End section -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3 data-en="About Us" data-am="ስለ እኛ">About Us</h3>
+          <p
+            style="color: #fff"
+            data-en="We are AMWIC, a leading innovator in web development, AI, and app development. Our mission is to deliver cutting-edge solutions that empower businesses and individuals."
+            data-am="አምዊክ በድረ-ገፅ ልማት፣ አርቴፊሻል ኢንተለጀንስ እና መተግበሪያ ልማት የሚሽከረከር ተቋም ነን። ንግዶችን እና ግለሰቦችን የሚተማመኑ ዘመናዊ መፍትሄዎችን ለመስጠት እንሰራለን።"
+          >
+            We are AMWIC...
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3 data-en="Quick Links" data-am="ፈጣን አገናኞች">Quick Links</h3>
+          <ul>
+            <li><a href="#" data-en="Home" data-am="መነሻ">Home</a></li>
+            <li>
+              <a href="#" data-en="Services" data-am="አገልግሎቶች">Services</a>
+            </li>
+            <li>
+              <a href="#" data-en="Projects" data-am="ፕሮጀክቶች">Projects</a>
+            </li>
+            <li><a href="#" data-en="Contact" data-am="አውስን">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3 data-en="Contact Us" data-am="አውስን">Contact Us</h3>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span data-en="Addis Ababa, Ethiopia" data-am="አዲስ አበባ, ኢትዮጵያ"
+                >Addis Ababa, Ethiopia</span
+              >
+            </li>
+            <li><i class="fas fa-phone"></i> +251 954889050</li>
+            <li><i class="fas fa-phone"></i> +251 990353338</li>
+            <li><i class="fas fa-phone"></i> +251 706055191</li>
+            <li><i class="fas fa-envelope"></i> info@amwic.com</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p
+          data-en="© 2025 (AMWIC) Digital Solutions. All rights reserved."
+          data-am="© 2025 አምዊክ ዲጂታል መፍትሄዎች. መብቶች በህግ የተጠበቁ ናቸው።"
+        >
+          © 2025 AMWIC. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- end Footer Area
+========================================== -->
+
+    <!-- 
+    Essential Scripts
+    =====================================-->
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap4 -->
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- Parallax -->
+    <script src="plugins/parallax/jquery.parallax-1.1.3.js"></script>
+    <!-- lightbox -->
+    <script src="plugins/lightbox2/js/lightbox.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <!-- filter -->
+    <script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+    <!-- Smooth Scroll js -->
+    <script src="plugins/smooth-scroll/smooth-scroll.min.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
+    <script src="plugins/google-map/gmap.js"></script>
+
+    <!-- Custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
